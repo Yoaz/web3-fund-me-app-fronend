@@ -30,6 +30,7 @@ async function connect() {
     console.log(accounts)
   } else {
     conButton.innerHTML = "Please install MetaMask"
+    buttDisabling()
   }
 }
 
